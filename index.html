@@ -2,18 +2,20 @@
 <html lang="pt-br">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!--Atribuição será necessária
         <a href='https://br.freepik.com/fotos-vetores-gratis/pessoas'>Pessoas vetor criado por pikisuperstar - br.freepik.com</a>
         <a href="https://www.flaticon.com/br/icones-gratis/adotado" title="adotado ícones">Adotado ícones criados por Freepik - Flaticon</a>
         <a href="https://www.flaticon.com/br/icones-gratis/cachorro" title="cachorro ícones">Cachorro ícones criados por Freepik - Flaticon</a>
-        <a href="https://www.flaticon.com/br/icones-gratis/adote" title="adote ícones">Adote ícones criados por Freepik - Flaticon</a>
-    -->
+        <a href="https://www.flaticon.com/br/icones-gratis/adote" title="adote ícones">Adote ícones criados por Freepik - Flaticon</a>-->
         <title>Focinho Amigo</title>
+        <link rel="stylesheet" type="text/css" href="reset.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     </head>
     <body>
         <header>
-            <figure>
+            <figure class="logo">
                 <img src="Imagens/icones/Cão e gato.png" alt="Ilustração de siluetas de um cachorro e um gato">
                 <figcaption>Focinho Amigo</figcaption>
             </figure>
@@ -28,13 +30,14 @@
         <main>
             <section id="inicio">
                 <div class="circulo"></div>
-                <img src="Imagens/icones/Selo3.png" alt="">
-                <img src="Imagens/Gato Amarelo.png" alt="">
-                <div>
-                    <h1>Focinho Amigo</h1>
-                    <h2>Faça um animalzinho feliz hoje. Dôe recursos, dôe seu tempo ou aumente sua família!</h2>
+                <div class="principal">
+                    <img src="Imagens/Gato Amarelo.png" alt="" class="pincipal_img">
+                    <div class="pincipal_text">
+                        <h1>Focinho Amigo</h1>
+                        <h2>Faça um animalzinho feliz hoje. Dôe recursos, dôe seu tempo ou aumente sua família!</h2>
+                    </div>
+                    <img src="Imagens/Cachorro Rosa.png" alt=""class="pincipal_img">
                 </div>
-                <img src="Imagens/Cachorro Rosa.png" alt="">
             </section>
             <section id="nossa_historia">
                 <h2>Nossa História</h2>
@@ -57,8 +60,8 @@
                 </div>
             </section>
             <section id="sobre_adocao">
-                <fieldset>
-                    <legend>Os benefícios da adoção de animais para a saúde</legend>
+                <div>
+                    <h3>Os benefícios da adoção de animais para a saúde</h3>
                     <p>
                         O seu pet está sempre ao seu lado, de bom humor, pronto para qualquer brincadeira e, como no caso dos cachorros, muitas vezes é considerado seu melhor amigo. Mas você sabia que adotar um animal de estimação é bem mais benéfico que você imagina?  Além de fazer companhia, o pets ajudam muito na sua saúde.
                     </p>
@@ -72,84 +75,84 @@
                         <br>E aí, se convenceu a adotar um bichinho para você?
                     </p>
                     <p>Fonte:<a href="https://blog.segurosunimed.com.br/os-beneficios-da-adocao-de-animais-para-saude/" target="blank">Blog da Seguros</a></p>
-                </fieldset>
+                </div>
                 <img src="Imagens/Pessoas com pets.jpg" alt="">
             </section>
             <section id="adote">
-                <h2>Adote</h2>
+                <h2 class="adote_titulo_principal">Adote</h2>
                 <p>Veja os pequenos que estão disponíveis para adoção e <a href="">venha nos visitar</a> para conhece-los pessoalmente!</p>
                 <div>
-                    <img src="Imagens/icones/adote cachorro.png" alt="">
-                    <h3>Cachorros</h3>
-                    <div>
-                        <figure class="pet">
-                            <img src="Imagens/Cachorro (1).jpg" alt="">
+                    <img src="Imagens/icones/adote cachorro.png" alt="" class="adote_icone">
+                    <h3 class="adote_titulo">Cachorros</h3>
+                    <div class="sessao_adocao">
+                        <figure class="polaroid">
+                            <img src="Imagens/Cachorro (1).jpg" al class="pet"t="">
                             <figcaption class="pet_info">Beethoven X anos</figcaption>
                         </figure>
-                        <figure class="pet">
-                            <img src="Imagens/Cachorro (2).jpg" alt="">
+                        <figure class="polaroid">
+                            <img src="Imagens/Cachorro (2).jpg" al class="pet"t="">
                             <figcaption class="pet_info">Sparky X anos</figcaption>
                         </figure>
-                        <figure class="pet">
-                            <img src="Imagens/Cachorro (3).jpg" alt="">
+                        <figure class="polaroid">
+                            <img src="Imagens/Cachorro (3).jpg" al class="pet"t="">
                             <figcaption class="pet_info">Milo X anos</figcaption>
                         </figure>
-                        <figure class="pet">
-                            <img src="Imagens/Cachorro (4).jpg" alt="">
+                        <figure class="polaroid">
+                            <img src="Imagens/Cachorro (4).jpg" al class="pet"t="">
                             <figcaption class="pet_info">Bella X anos</figcaption>
                         </figure>
-                        <figure class="pet">
-                            <img src="Imagens/Cachorro (5).jpg" alt="">
+                        <figure class="polaroid">
+                            <img src="Imagens/Cachorro (5).jpg" al class="pet"t="">
                             <figcaption class="pet_info">Lady X anos</figcaption>
                         </figure>
-                        <figure class="pet">
-                            <img src="Imagens/Cachorro (6).jpg" alt="">
+                        <figure class="polaroid">
+                            <img src="Imagens/Cachorro (6).jpg" al class="pet"t="">
                             <figcaption class="pet_info">Snoopy X anos</figcaption>
                         </figure>
-                        <figure class="pet">
-                            <img src="Imagens/Cachorro (7).jpg" alt="">
+                        <figure class="polaroid">
+                            <img src="Imagens/Cachorro (7).jpg" al class="pet"t="">
                             <figcaption class="pet_info">Akamaru X anos</figcaption>
                         </figure>
-                        <figure class="pet">
-                            <img src="Imagens/Cachorro (8).jpg" alt="">
+                        <figure class="polaroid">
+                            <img src="Imagens/Cachorro (8).jpg" al class="pet"t="">
                             <figcaption class="pet_info">Bolt X anos</figcaption>
                         </figure>
                     </div>
                 </div>
                 <div>
-                    <img src="Imagens/icones/adote gato.png" alt="">
-                    <h3>Gatos</h3>
-                    <div>
-                        <figure class="pet">
-                            <img src="Imagens/Gato (1).jpg" alt="">
+                    <img src="Imagens/icones/adote gato.png" alt="" class="adote_icone">
+                    <h3 class="adote_titulo">Gatos</h3>
+                    <div class="sessao_adocao">
+                        <figure class="polaroid">
+                            <img src="Imagens/Gato (1).jpg" alt="" class="pet">
                             <figcaption class="pet_info">Sr. Meia-Noite X anos</figcaption>
                         </figure>
-                        <figure class="pet">
-                            <img src="Imagens/Gato (2).jpg" alt="">
+                        <figure class="polaroid">
+                            <img src="Imagens/Gato (2).jpg" alt="" class="pet">
                             <figcaption class="pet_info">Sagwa X anos</figcaption>
                         </figure>
-                        <figure class="pet">
-                            <img src="Imagens/Gato (3).jpg" alt="">
+                        <figure class="polaroid">
+                            <img src="Imagens/Gato (3).jpg" alt="" class="pet">
                             <figcaption class="pet_info">Mingau X anos</figcaption>
                         </figure>
-                        <figure class="pet">
-                            <img src="Imagens/Gato (4).jpg" alt="">
+                        <figure class="polaroid">
+                            <img src="Imagens/Gato (4).jpg" alt="" class="pet">
                             <figcaption class="pet_info">Kit-Cat X anos</figcaption>
                         </figure>
-                        <figure class="pet">
-                            <img src="Imagens/Gato (5).jpg" alt="">
+                        <figure class="polaroid">
+                            <img src="Imagens/Gato (5).jpg" alt="" class="pet">
                             <figcaption class="pet_info">Hermione X anos</figcaption>
                         </figure>
-                        <figure class="pet">
-                            <img src="Imagens/Gato (6).jpg" alt="">
+                        <figure class="polaroid">
+                            <img src="Imagens/Gato (6).jpg" alt="" class="pet">
                             <figcaption class="pet_info">Simba X anos</figcaption>
                         </figure>
-                        <figure class="pet">
-                            <img src="Imagens/Gato (7).jpg" alt="">
+                        <figure class="polaroid">
+                            <img src="Imagens/Gato (7).jpg" alt="" class="pet">
                             <figcaption class="pet_info">Matatabi X anos</figcaption>
                         </figure>
-                        <figure class="pet">
-                            <img src="Imagens/Gato (8).jpg" alt="">
+                        <figure class="polaroid">
+                            <img src="Imagens/Gato (8).jpg" alt="" class="pet">
                             <figcaption class="pet_info">Nala X anos</figcaption>
                         </figure>
                     </div>
@@ -201,6 +204,7 @@
                     <P>Caixa Postal: xxxxx CEP 684540-000</P>
                 </div>
             </section>
+            <img src="Imagens/icones/Selo1.1.png" alt="" class="selo">
         </main>
         <footer id="redes_sociais">
             <h2>Acompanhe as nossas atividades nas redes sociais</h2>

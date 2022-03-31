@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Waiting+for+the+Sunrise&display=swap');
+/*font-family: 'Waiting for the Sunrise', cursive; -> fonte para a polaroid */
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+/*font-family: 'Varela Round', sans-serif;*/
+body{
+    font-family: 'Varela Round', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 50px;
+    margin: 10px 0px 0px 10px;
+}
+.logo figcaption{
+    margin-top: 10px;
+    font-weight: bold;
+    color: rgb(148, 148, 148);
+    width: 60px;
+    font-family: 'Waiting for the Sunrise', cursive;
+}
+nav a{
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    color: rgb(148, 148, 148);;
+}
+nav a:hover{
+    color: #51aeae;
+    text-decoration: underline;
+}
+header, #inicio{
+    background-color: #ffffff;
+}
+.principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    text-align: center;
+}
+.pincipal_img{
+    width: 200px;
+}
+.pincipal_text{
+    width: 300px;
+    font-weight: bold;
+}
+h1{
+    font-size: 80px;
+    margin: 10px;
+}
+#adote{
+    background-color: #f5cdd3;
+    text-align: center;
+}
+.adote_titulo_principal{
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+.adote_icone{
+    width: 50px;
+    float: left;
+}
+.adote_titulo{
+    font-size: 50px;
+    margin: 20px;
+    font-weight: bold;
+}
+.polaroid{
+    padding: 15px 15px 50px;
+    margin: 15px;
+    background-color: #fff;
+}
+.polaroid:hover{
+    transform: scale(1.1);
+}
+.sessao_adocao{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.pet{
+    max-width: 250px;
+}
+.pet_info{
+    font-family: 'Waiting for the Sunrise', cursive;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40px;
+}
+#nossa_historia{
+    background-color: #a1dcd8;
+}
+#nossa_historia img{
+    width: 500px;
+}
+#nossa_historia h2{
+    
+}
+.selo{
+    height: 120px;
+}
