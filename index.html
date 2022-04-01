@@ -15,10 +15,12 @@
     </head>
     <body>
         <header>
-            <figure class="logo">
-                <img src="Imagens/icones/Cão e gato.png" alt="Ilustração de siluetas de um cachorro e um gato" class="logo_img">
-                <figcaption class="logo_texto">Focinho Amigo</figcaption>
-            </figure>
+            <a href="file:///C:/Users/kelly/Downloads/VSCode/Tera/Site%20de%20ado%C3%A7%C3%A3o/index.html#logo">
+                <figure class="logo" id="logo">
+                    <img src="Imagens/icones/Cão e gato.png" alt="Ilustração de siluetas de um cachorro e um gato" class="logo_img">
+                    <figcaption class="logo_texto">Focinho Amigo</figcaption>
+                </figure>
+            </a>
             <nav>
                 <a href="#historia">Nossa História</a></li>
                 <a href="#adocao">Sobre Adoção</a></li>
@@ -30,12 +32,16 @@
         <main>
             <section id="inicio">
                 <div class="abertura">
-                    <img src="Imagens/Gato Amarelo.png" alt="ilustração de um gato amarelo olhando para a direita" class="abertura_img">
+                    <a href="#gato">
+                        <img src="Imagens/Gato Amarelo.png" alt="ilustração de um gato amarelo olhando para a direita" class="abertura_img">
+                    </a>
                     <div class="abertura_texto">
                         <h1>Focinho Amigo</h1>
-                        <h2>Faça um animalzinho feliz hoje. Dôe recursos, dôe seu tempo ou aumente sua família!</h2>
+                        <h2>Faça um animalzinho feliz hoje.<a href="#contribua" class="doe">Dôe recursos</a> , <a href="#contribua" class="doe">dôe seu tempo</a> ou <a href="#contribua" class="doe">aumente sua família</a>!</h2>
                     </div>
-                    <img src="Imagens/Cachorro Rosa.png" alt="ilustração de um cachorro rosa olhando para a esquerda" class="abertura_img">
+                    <a href="#cao">
+                        <img src="Imagens/Cachorro Rosa.png" alt="ilustração de um cachorro rosa olhando para a esquerda" class="abertura_img">
+                    </a>
                 </div>
             </section>
             <section id="historia">
@@ -79,9 +85,9 @@
             </section>
             <section id="adote">
                 <h2>Adote</h2>
-                <p>Veja os pequenos que estão disponíveis para adoção e <a href="https://goo.gl/maps/MJEckPpyfGuMvo3bA" target="blank">venha nos visitar</a> para conhece-los pessoalmente!</p>
+                <p>Veja os pequenos que estão disponíveis para adoção e <a href="#visita" target="blank">venha</a> conhece-los de pertinho!</p>
                 <div class="adote_pets">
-                    <div class="adote_titulo">
+                    <div class="adote_titulo" id="cao">
                         <img src="Imagens/icones/adote cachorro.png" alt="">
                         <h3>Cachorros</h3>
                     </div>
@@ -121,7 +127,7 @@
                     </div>
                 </div>
                 <div class="adote_pets">
-                    <div class="adote_titulo">
+                    <div class="adote_titulo" id="gato">
                         <img src="Imagens/icones/adote gato.png" alt="">
                         <h3>Gatos</h3>
                     </div>
@@ -161,62 +167,38 @@
                     </div>
                 </div>
             </section>
-            <section  id="contribua">
-                <h2>Sua Contribuição é muito bem vinda!</h2>
-                <div class="contribua_quadros">
-                    <div class="contribua_selecao">
-                        <h3>Seja voluntário<h3>
-                            <form>
-                                <label for="nome">Nome:</label>
-                                <input type="text" id="nome"><br> 
-                                <label for="sobrenome">Sobrenome:</label>
-                                <input type="text" id="sobrenome"><br>  
-                                <label for="celular">Celular:</label>
-                                <input type="number" id="celular"/><br> 
-                                <label for="idade">Nascimento</label>
-                                <input type="date" id="idade"><br> 
-                                <label>Disponibilidade:
-                                    <input type="radio" id="manha">
-                                    <label for="manha">Manhã</label>
-                                    <input type="radio" id="tarde">
-                                    <label for="tarde">Tarde</label> 
-                                </label><br> 
-                                <input type="submit">
-                                <input type="reset">
-                            </form>
-                    </div>
-                    <div class="contribua_selecao">
-                        <h3>Dôe dinheiro</h3>
-                        <p>Pix: xxx.xxx.xxx-xx</p>
-                        <img src="Imagens/icones/QR Code.jpeg" alt="" class="img_pix">
-                        <p>Tranferência Bancária:</p>
-                        <p>
-                            Banco: xxx Banco Tal<br>
-                            Agência: 0001<br>
-                            Conta: xxxxxxxxxx-x<br>
-                            Nome:Fulaninha Silva<br>
-                            CPF:xxx.xxx.xxx-xx<br>
-                        </p>
-                        <p>Boleto Bancário:</p>
-                        <label for="boleto">Solicite seu boleto</label>
-                        <input type="button" value="Aqui" id="boleto">
-                    </div>
-                    <div class="contribua_selecao">
-                        <h3>Dôe alimentação</h3>
-                        <P>Endereço: Rua xxxx, xxx, Centro</P>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4085.0209843582456!2d-49.26265740177764!3d-8.263631932140187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93208ee0a8f74907%3A0xf27ba6809e5f2770!2zUHJhw6dhIGRhIELDrWJsaWE!5e0!3m2!1spt-BR!2sbr!4v1648587377151!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        <P>Caixa Postal: xxxxx CEP 684540-000</P>
-                    </div>
+            <section  id="visita">
+                <h2>Venha nos visitar!</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3317.882411504716!2d-49.26432929792445!3d-8.263139145553279!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93208ee0a8f74907%3A0xf27ba6809e5f2770!2zUHJhw6dhIGRhIELDrWJsaWE!5e0!3m2!1spt-BR!2sbr!4v1648823958140!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mapa"></iframe>
+            </section>
+            <section id="contribua">
+                <div class="doacao">
+                    <h2>Sua doação é muito bem vinda!</h2>
+                    <p>PIX: XXX.XXX.XXX-XX</p>
+                    <img src="Imagens/icones/QR Code.jpeg" alt="">
+                </div>
+                <div class="doacao">
+                    <h2>Deseja doar alimento?</h2>
+                    <p>Entregue pessoalmente no nosso <a href="#visita">endereço</a> ou faça o envio:</p>
+                    <p>
+                        Cx Postal: xxxxx<br>
+                        CEP: xxxxx-xxx
+                    </p>
+                    <img src="Imagens/racao.jpg" alt="">
+                </div>
+                <div class="doacao">
+                    <h2>Venha ser um voluntário!</h2>
+                    <p>Preencha o formulário e entraremos em contato com você.</p>
+                    <img src="Imagens/carinho no gato.jpg" alt="">
                 </div>
             </section>
             <img src="Imagens/icones/Selo1.1.png" alt="" class="selo">
         </main>
         <footer id="redes_sociais">
-            <h2>Acompanhe as nossas atividades nas redes sociais</h2>
             <a href=""><img src="Imagens/icones/facebook.png" alt=""></a>
             <a href=""><img src="Imagens/icones/instagram.png" alt=""></a>
             <a href=""><img src="Imagens/icones/tik-tok.png" alt=""></a>
-            <a href="#inicio"><img src="Imagens/icones/seta-dupla-para-cima.png"></a>
+            <a href="#logo"><img src="Imagens/icones/seta para cima.png" class="seta"></a>
         </footer>
     </body>
 </html>
