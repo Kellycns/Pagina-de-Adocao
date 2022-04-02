@@ -149,7 +149,7 @@ span{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 50px 0px;
+    padding: 50px 0px;
 }
 .adote_pets_polaroid{
     background-color: #ffffff;
@@ -170,22 +170,26 @@ span{
 }
 #visita{
     width: 100%;
-    height: 630px;
+    height: 550px;
 }
 #visita h2{
     font-size: 30px;
     text-align: center;
+    padding-top: 30px;
 }
 .mapa{
     display: block;
     margin-left: auto;
     margin-right: auto;
     padding: 40px;
+    margin-bottom: 30px;
 }
 #contribua{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    background-color: #d4f0f0;
+    padding: 110px 0px;
 }
 .doacao{
     background-color: #55cbcd;
@@ -200,7 +204,6 @@ span{
 }
 .doacao img{
     width: 200px;
-    padding: 5px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -214,11 +217,37 @@ span{
     color: #ffffff;
     text-decoration: underline;
 }
-.selo{
+form{
+    width: 300px;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15px;
+}
+label{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 200px;
+    width: 85px;
+    font-weight: bold;
+}
+input{
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+}
+input:focus{
+    border: none;
+}
+label, input{
+    margin: 10px 0px;
+    padding: 5px 0px 5px 5px;
+}
+.botao{
+    width: 70px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+}
+.botao:hover{
+    transform: scale(1.1);
 }
 #redes_sociais{
     background-color: #5e5452;
